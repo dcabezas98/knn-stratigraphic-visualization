@@ -1,6 +1,8 @@
 # knn-stratigraphic-visualization
 
-TODO: abstract
+## A k-Nearest Neighbors Algorithm in Python for Visualizing the 3D Stratigraphic Architecture of the Llobregat River Delta in NE Spain
+
+The k-nearest neighbors (KNN) algorithm is a non-parametric supervised machine learning classifier, which uses proximity and similarity to make classifications or predictions about the grouping of an individual data point. This ability makes the KNN algorithm ideal for classifying datasets of geological variables and parameters prior to 3D visualization. This paper introduces a machine learning KNN algorithm and Python libraries for visualizing the 3D stratigraphic architecture of porous sedimentary media. A first HTML model shows the consecutive 5-m-equispaced set of horizontal sections of the granulometry classes created with the KNN algorithm from 0 to 120 m b.s.l. in the onshore LRD. A second HTML model shows the 3D mapping of the main Quaternary gravel and coarse sand sedimentary bodies (lithosomes) and the basement (Pliocene and older rocks) top surface created with Python libraries. These results reproduce well the complex sedimentary structure reported in recent scientific publications and prove the suitability of the KNN algorithm and Python libraries for visualizing the 3D stratigraphic structure of sedimentary media, which is a crucial stage to take decisions in different environmental and economic geology disciplines.
 
 ## How to use
 
@@ -14,4 +16,4 @@ The data can be found in the `data` folder. Only two files are necessary: `delta
 
 ### How to run the notebook
 
-TODO
+TODO 
