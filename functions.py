@@ -256,3 +256,15 @@ def cutting(list_of_points,polyg,dis):
             if polyg.distance(geometry.Point(pc[1][i],pc[2][j]))>dis:
                 pc[0][j][i]=np.nan
     return pc
+
+
+def nearby(xyz,polyg,dis):
+    x=xyz[0]
+    y=xyz[1]
+    z=xyz[2]
+    n=len(x)
+    positions=[i for i in range(n) if polyg.distance(geometry.Point(x[i],y[i]))< dis]
+    rx=[x[i] for i in positions]
+    ry=[y[i] for i in positions]
+    rz=[z[i] for i in positions]
+    return [rx,ry,rz]
