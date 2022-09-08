@@ -18,7 +18,7 @@ The data can be found in the `data` folder. Only two files are necessary: `delta
 
 You can run the notebook in [Jupyter-Notebook](https://jupyter.org/) or [Visual Studio Code](https://code.visualstudio.com/), you also need a Python kernel installed in your computer. We recommend installing [Anaconda](https://www.anaconda.com/) and launching Jupyter by typing `jupyter-notebook` in the Anaconda Prompt.
 
-To successfully run the notebook, you need to locate it in the same folder as the `data` directory and the file `functions.py`. In order to to this, you may just extract the ZIP file with the whole repository. Then, launch Jupyter Notebook and select the notebook `knn.ipynb`. To run a cell, you can just click in the run button (next to the cell number) or click on it and press Ctrl+Enter. You're now ready to go!
+To successfully run the notebook, you need to locate it in the same folder as the `data` directory and the file `functions.py`. In order to do this, you may just extract the ZIP file with the whole repository. Then, launch Jupyter Notebook and select the notebook `knn.ipynb`. To run a cell, you can just click in the run button (next to the cell number) or click on it and press Ctrl+Enter. You're now ready to go!
 
 
 #### Authors:
